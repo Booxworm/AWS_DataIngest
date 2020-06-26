@@ -1,0 +1,20 @@
+{
+  "name": "data_ingest",
+  "version": "0.1.0",
+  "bin": {
+    "data_ingest": "bin/data_ingest.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.44.0",
+    "aws-cdk": "1.44.0",
+    "jest": "^25.5.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.44.0"
+  }
+}
